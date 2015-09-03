@@ -1,0 +1,138 @@
+
+body {
+    background-color:white;
+}
+
+h1.mainTitle  {
+    color:black;
+    
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
+
+/*RELACIONADO CON LAS GRAFICAS DE HISTOGRAMA.java Y GRAFICA.java*/
+
+
+svg, .svgContainer, .svgGraficContainer {
+    /*        text-align:center;*/
+    
+/*    background-color: lightblue;*/
+       transition: width 2s;
+    
+}
+
+/*animateTransform{*/
+/*    ="transform"*/
+/*    type="rotate"*/
+/*    from="0 100 100" to="360 100 100"*/
+/*    begin="0s" dur="10s"*/
+/*    repeatCount="indefinite"*/
+/*}*/
+
+
+rect.histogramaBarsContainer{
+    
+    fill:lightgrey;
+    fill-opacity:0.2;
+    
+    stroke:black;
+    stroke-width:2;
+    stroke-opacity:1;
+    
+}
+
+/*ANIMTATIONS*/
+
+rect.histogramaBar{
+    
+    fill:blue;
+    fill-opacity:0.5;
+    
+    stroke:darkblue;
+    stroke-width:2;
+    stroke-opacity:0.5;
+}
+
+circle.histogramaDot
+{
+    
+    fill:green;
+    fill-opacity:0.9;
+    
+    stroke:black;
+    stroke-width:2;
+    stroke-opacity:1;
+    
+}
+
+circle.histogramaArcContainer
+{
+    
+    stroke:black;
+    fill:black;
+    
+}
+
+circle.graficVertex
+{
+    
+    fill:lightblue;
+    fill-opacity:1;
+    stroke-width:2;
+    stroke:black;
+    stroke-opacity:0.8;
+}
+line.graficLine{
+    stroke:black;
+    stroke-width:0.3;
+}
+line.histogramaLine
+{
+	
+    stroke:black;
+    stroke-width:1;
+    
+}
+circle.graficCircle{
+    
+    
+    fill:lightblue;
+    fill-opacity:1;
+    stroke-width:0;
+    
+}
+text.graifcValue
+{
+    text-anchor:middle;
+    
+}
+
+/*  A Partie de aqui es layout*/
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
